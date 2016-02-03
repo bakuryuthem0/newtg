@@ -1,0 +1,46 @@
+.checkbox input[type=checkbox]
+{
+	position: relative;
+	margin: 0;
+}
+
+.main-footer.no-auth
+{
+	margin-left: 0;
+}
+
+.login-logo.logo-login
+{
+	font-size: 25px;
+}
+
+.login-box-body .has-feedback label~.form-control-feedback
+{
+	top: 0;
+}
+.login-box-body .has-feedback label~.form-control-feedback.active
+{
+	top: 25px;
+}
+.no-padding
+{
+	padding: 0;
+}
+.miniLoader
+{
+    margin-top: 0.5em;
+    display: none;
+}
+.miniLoader.active
+{
+	display: block;
+}
+
+.responseAjax
+{
+	display: none;
+}
+.responseAjax.active
+{
+	display: block;
+}

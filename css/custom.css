@@ -1,0 +1,169 @@
+.row
+{
+  margin: 0;
+}
+.contLoading
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  background-color: rgba(255,255,255,0.9);
+  display: none;
+}
+
+*.no-marg-bot
+{
+  margin-bottom: 0;
+}
+body {
+  background-color: #eee;
+}
+img{
+  width: 100%;
+}
+.preloader-wrapper {
+  position: relative;
+  top: 40%;
+  
+}
+
+.cd-side-navigation a
+{
+  padding: 2em 0 1.5em;
+}
+.image-tree-quarters
+{
+  width: 75%;
+  text-align: center;
+}
+.cd-content p,.contenedor-tipop
+{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.contenedor-tipop
+{
+  margin-top: 50px;
+}
+.justify
+{
+  text-align: justify;
+}
+.mar-bot
+{
+  margin-bottom: 5%;
+}
+.formulario
+{
+  margin-bottom: 2em;
+}
+.contCentrado
+{
+  margin: 0 auto !important;
+  display: block;
+  float: none !important;
+}
+.ul-contact .fa
+{
+  float: left;
+}
+.ul-contact p
+{
+  line-height: 1;
+}
+.ul-contact li
+{
+  margin-bottom: 1em;
+}
+#index-content
+{
+  position: relative;
+  overflow-x: hidden;
+}
+.content-aside
+{
+  height: auto;
+  left: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding-bottom: 5rem;
+  -webkit-transition: all .25s ease-in-out;
+     -moz-transition: all .25s ease-in-out;
+      -ms-transition: all .25s ease-in-out;
+       -o-transition: all .25s ease-in-out;
+          transition: all .25s ease-in-out;
+}
+.content-aside.active
+{
+  left: 0;
+}
+.service
+{
+  cursor: pointer;
+}
+.get-back{
+  background-color: red;
+  height: 50px;
+  padding: 0;
+  width: 50px;
+  top: 0;
+  position: absolute;
+}
+.get-back:hover.get-back:focus
+{
+  background-color: #ff6060;
+}
+.get-back .fa
+{
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+     -moz-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+       -o-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.fixed
+{
+  position: absolute;
+  float: none;
+}
+.content-text
+{
+  color: white;
+}
+.content-image img
+{
+  display: block;
+  margin: 0 auto;
+  width: 85%;
+}
+.close
+{
+  background: transparent none repeat scroll 0 0;
+  border: medium none transparent;
+  float: right;
+}
+.close:hover,.close:focus
+{
+  background: transparent none repeat scroll 0 0;
+}
+.modal
+{
+  background-color: transparent !important;
+  box-shadow: 0 0 0 0 transparent;
+}
+.input-field label.label-control
+{
+    position: relative;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
